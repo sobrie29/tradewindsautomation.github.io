@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Tradewinds Automation :: Contact</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="tradewinds.css" rel="stylesheet">
+</head>
+
+<body>
+<div id="wrapper">
+
+    <header>
+        <h1><a href="index.html">TRADEWINDS AUTOMATION AND ENGINEERING</a></h1>
+		<p class="motto">Guiding Automation Forward</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="industries.html">Industries</a></li>
+            <li><a href="about.html">About</a></li>
+			<li><a href="contact.html">Contact</a></li>
+
+        </ul>
+    </nav>
+
+    
+
+    <main>
+        <h2>Reservations at Pacific Trails</h2>
+		<h3>Contact Us Today!</h3>
+		<p>Required fields are marked with an asterisk *</p>
+        
+			<form method="post"
+			action="https://webdevbasics.net/scripts/pacific.php">
+
+		
+				<label for="myFName">* First Name:</label>
+				<input type="text" id="myFName" name="myFName" required>
+
+				<label for="myLName">* Last Name:</label>
+				<input type="text" id="myLName" name="myLName" required>
+
+				<label for="myEmail">* E-mail:</label>
+				<input type="email" id="myEmail" name="myEmail" required>
+
+				<label for="myPhone">Phone:</label>
+				<input type="tel" id="myPhone" name="myPhone" maxlength="12">
+
+				<label for="myArrival">Arrival Date:</label>
+				<input type="date" id="myArrival" name="myArrival">
+
+				<label for="myComments">* Comments:</label>
+				<textarea id="myComments" name="myComments" rows="2" cols="30" required></textarea>
+
+				<input type="submit" value="Submit">
+
+			</form>
+
+        <div id="contact">
+            <p>
+                <span class="address">Tradewinds Automation</span><br>
+                753 Sheridan Drive<br>
+                Santa Rosa, CA 95405<br><br>
+                (707) 360-8345
+            </p>
+        </div>
+		
+    </main>
+
+	<footer>
+        Copyright © 2026 Tradewinds Automation<br>
+        <a href="mailto:sean.obrien@asu.com">sean.obrien@asu.com</a>
+    </footer>
+	
+</div>
+</body>
+</html>
