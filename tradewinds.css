@@ -186,7 +186,7 @@ tr:nth-of-type(odd) {
 		border-radius: 20px 0PX 0PX 0PX;
 		background-repeat: no-repeat;
 	}
-		#homehero { background-image: url("COMPONENTS.AVIF"); }
+		#homehero { background-image: url("components.avif"); }
 		#yurthero { background-image: url("yurt.jpg"); }
 		#trailhero { background-image: url("trail.jpg"); }
 
