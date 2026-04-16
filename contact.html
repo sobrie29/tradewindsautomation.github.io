@@ -49,16 +49,34 @@
 				<label for="myPhone">Phone:</label>
 				<input type="tel" id="myPhone" name="myPhone" maxlength="12">
 
-				<label for="myPreference">Preferred Communication Method:</label><BR>
-				<input type="checkbox" name="prefphone" id="prefphone" value="yes"> Phone <br>
-				<input type="checkbox" name="prefemail" id="prefemail" value="yes"> Email <BR>
-				<input type="checkbox" name="prefboth" id="prefboth" value="yes"> Both <BR>
+				<fieldset class="form-group">
+  				<legend>Preferred Communication Method</legend>
+					<label class="option">
+        				<input type="checkbox" name="prefphone" value="Phone">
+        				Phone  
+					</label>
+    				<label class="option">
+			        	<input type="checkbox" name="prefemail" value="Email">
+        				Email
+    				</label>
+				    <label class="option">
+        				<input type="checkbox" name="prefboth" value="Both">
+        				Both
+    				</label>
+				</fieldset>
 
-				<label for="myPreference">Do you want to opt-in to receiving test messages:</label>
-				<input type="radio" name="optin" id="textY" value="textYes"> Yes<br>
-				<input type="radio" name="optin" id="textN" value="textNo"> No<br>
-
-				
+				<fieldset class="form-group">
+    			<legend>Opt in to receiving text messages?</legend>
+				    <label class="option">
+        				<input type="radio" name="optin" value="Yes">
+        				Yes
+    				</label>
+			    	<label class="option">
+        				<input type="radio" name="optin" value="No">
+        				No
+    				</label>
+				</fieldset>
+			
 				<label for="myArrival">Arrival Date:</label>
 				<input type="date" id="myArrival" name="myArrival">
 
