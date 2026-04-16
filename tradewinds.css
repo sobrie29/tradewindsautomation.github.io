@@ -187,7 +187,7 @@ tr:nth-of-type(odd) {
 		background-repeat: no-repeat;
 	}
 		#homehero { background-image: url("components.avif"); }
-		#yurthero { background-image: url("yurt.jpg"); }
+		#servicehero { background-image: url("packaging_line.webp"); }
 		#trailhero { background-image: url("trail.jpg"); }
 
 
