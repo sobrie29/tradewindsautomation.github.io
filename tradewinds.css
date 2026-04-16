@@ -184,7 +184,7 @@ tr:nth-of-type(odd) {
 	#contacthero,
 	#abouthero	{
 		height: 300px;
-		background-size: 30% 30%;
+		background-size: 100% 100%;
 		border-radius: 20px 0PX 0PX 0PX;
 		background-repeat: no-repeat;
 	}
