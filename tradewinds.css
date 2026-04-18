@@ -353,6 +353,7 @@ footer {
 }
 
 .partner-section {
+    border: none;
     max-width: 900px;
     margin: 0 auto;
 }
