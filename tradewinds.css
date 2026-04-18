@@ -272,6 +272,28 @@ footer {
         max-width: 900px;
     }
 
+.approach-steps {
+    margin-top: 1.5em;
+}
+
+.approach-step {
+    margin-bottom: 1.25em;
+}
+
+.approach-step-title {
+    font-weight: bold;
+    color: #005670;
+    margin-bottom: 0.2em;
+}
+
+.founder-quote {
+    font-style: italic;
+    color: #444444;
+    margin: 2em auto;
+    padding-left: 1.25em;
+    border-left: 4px solid #005670;
+    max-width: 800px;
+}
 
 /* MEDIUM DISPLAY */
 @media (min-width: 600px) {
