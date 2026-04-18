@@ -80,9 +80,9 @@ h2 {
     font-weight: 600;
     letter-spacing: 0.15em;
     text-transform: uppercase;
-    color: #gggggg;
+    color: #000033;
     opacity: 0.9;
-    text-shadow: 3px 1px 1px #000000;
+    text-shadow: 1px 1px 1px #f0f0f0;
     text-align: center;
 }
 
