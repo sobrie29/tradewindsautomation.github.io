@@ -199,6 +199,10 @@ tr:nth-of-type(odd) {
     background-color: #F5FAFC;
 }
 
+sessionul {
+    list-style-type: none;
+}
+
 /* FORMS */
 form {
     display: flex;
@@ -378,10 +382,6 @@ footer {
 
     .main-section {
         flex: 2.5;
-    }
-
-    sessionul {
-        list-style-type: none;
     }
 
     form {
