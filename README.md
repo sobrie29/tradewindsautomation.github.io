@@ -19,4 +19,4 @@ v1.1 — Rubric Compliance Fixes
 
 v1.2 — Lighthouse Accessibility Fixes
 - Added .sr-only CSS class to tradewinds.css for screen-reader-only content
-- Added visually hidden <h2> to index.html to correct heading hierarchy
+- Added visually hidden '<h2>' to index.html to correct heading hierarchy
